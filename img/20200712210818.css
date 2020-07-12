@@ -1,0 +1,22 @@
+@font-face {
+ font-family: "Fira Code";
+ font-weight: normal;
+ font-style: normal;
+ src: local('"Fira Code"'), url('fonts/firacode.otf') format('opentype');
+}
+
+<script>
+    MathJax.Hub.Config({
+        "HTML-CSS": {
+            /*preferredFont: "TeX",*/
+            /*availableFonts: ["TeX", "STIX"],*/
+            styles: {
+                scale: 100,
+                ".MathJax_Display": {
+                    "font-size": "100%",
+                }
+            }
+        }
+    });
+</script>
+    
